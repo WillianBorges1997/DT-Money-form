@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Roboto';
+}
+
+body{ /*fora do box*/
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    
+}
+
+.container-box{ /*é o box inteiro*/
+
+    Width:320px;
+    Height:400px; /*altura*/
+    Top: 334px;
+    background-color: #202024;
+    position: absolute;
+    top: 50%; /*posição do box na tela do computador*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px; /*distancia entre os elementos e a borda*/
+    border-radius: 15px ;
+    color: #E1E1E6;
+    box-shadow: 0px -4px 32px rgba(0, 0, 0, 0.8); /*sombreado*/
+    border-radius: 20px 20px 20px 20px; /*bordas arredondadas*/
+
+
+}
+
+    .nv-transacao{ /*titulo (nova transação)*/
+        display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 160%;
+        color: #E1E1E6;
+    
+    }
+
+    button{
+
+        border: none;
+    }
+
+    
+
+input{ /*linhas de display*/
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding: 16px;
+    gap: 8px;
+    width: 295px; /*configuração da horizontal*/
+    height: 20px; /*configuração da vertical*/
+    color: #E1E1E6;
+
+    background: #121214;
+    border-radius: 6px;
+
+}
+
+.xx-x{ /*botão de fechar*/
+    border: none;
+    background-color: #202024;
+    position: absolute;
+    top: 5%; /*altura do x*/
+    right: 6%;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.xx-x,
+.nv-transacao{ /*botão"X" e titulo "nova transaçãos" ficam na mesma direção*/
+    
+    display: flex;
+    position: absolute;
+    top: 10px;
+   
+
+}
+
+.botoes-conj2{ /*posição dos botões (ENTRADA e SAÍDA)*/
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+
+
+
+.btn-entrada{
+/*letreiro*/
+
+    width: 55px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #C4C4CC;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    /*configuração do botão*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 159.5px;
+    height: 58px;
+    background: #29292E;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: 0;
+
+}
+
+.btn-saida{
+
+    /*letreiro*/
+
+    width: 40px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #C4C4CC;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+    /* CONFIGURAÇÕES DO BOTÃO*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 159.5px;
+    height: 58px;
+    background: #29292E;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+.btn-cadastrar{
+
+color: #FFFFFF;
+   display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+
+position: absolute;
+height: 50px;
+left: 50.3px; /*lateral esquerda*/
+right: 39.3px; /*lateral direita*/
+bottom: 40px;
+background: #00875F;
+border-radius: 6px;
+cursor: pointer;
+outline: none;
+        
+
+
+}
+
+
